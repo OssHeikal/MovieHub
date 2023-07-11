@@ -64,15 +64,15 @@ To get started with MovieHub, follow these steps:
 
 1. Clone the repository:
   ```shell
-git clone https://github.com/OssHeikal/MovieHub.git
+  git clone https://github.com/OssHeikal/MovieHub.git
 
 2. Navigate to the project directory:
   ```shell
-cd MovieHub
+  cd MovieHub
    
 3. Install dependencies:
   ```shell
-flutter pub get
+  flutter pub get
 
 3. Obtain a TMDB API key:
 - Sign up for an account on the [TMDB website](https://www.themoviedb.org/).
@@ -87,7 +87,7 @@ flutter pub get
 
 6. Run the app: 
   ```shell
-flutter run
+  flutter run
 
 ## Packages
 
