@@ -63,15 +63,15 @@ MovieHub is a Flutter app that allows users to explore movies and TV shows using
 To get started with MovieHub, follow these steps:
 
 1. Clone the repository:
-```shell
+  ```shell
 git clone https://github.com/OssHeikal/MovieHub.git
 
 2. Navigate to the project directory:
-```shell
+  ```shell
 cd MovieHub
    
 3. Install dependencies:
-```shell
+  ```shell
 flutter pub get
 
 3. Obtain a TMDB API key:
@@ -86,7 +86,7 @@ flutter pub get
   apiKey = 'YOUR_API_KEY';
 
 6. Run the app: 
-```shell
+  ```shell
 flutter run
 
 ## Packages
