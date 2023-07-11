@@ -23,41 +23,40 @@ MovieHub is a Flutter app that allows users to explore movies and TV shows using
 ## Screenshots
 
 <div align="center">
-  <img src="screenshots/1.png" alt="Screenshot 1" width="250">
-  <img src="screenshots/2.png" alt="Screenshot 2" width="250">
-  <img src="screenshots/3.png" alt="Screenshot 3" width="250">
+  <img src="screenshots/1.jpg" alt="Screenshot 1" width="250">
+  <img src="screenshots/2.jpg" alt="Screenshot 2" width="250">
+  <img src="screenshots/3.jpg" alt="Screenshot 3" width="250">
 </div>
 
 <div align="center">
-  <img src="screenshots/4.png" alt="Screenshot 4" width="250">
-  <img src="screenshots/5.png" alt="Screenshot 5" width="250">
-  <img src="screenshots/6.png" alt="Screenshot 6" width="250">
+  <img src="screenshots/4.jpg" alt="Screenshot 4" width="250">
+  <img src="screenshots/5.jpg" alt="Screenshot 5" width="250">
+  <img src="screenshots/6.jpg" alt="Screenshot 6" width="250">
 </div>
 
 <div align="center">
-  <img src="screenshots/7.png" alt="Screenshot 7" width="250">
-  <img src="screenshots/8.png" alt="Screenshot 8" width="250">
-  <img src="screenshots/9.png" alt="Screenshot 9" width="250">
+  <img src="screenshots/7.jpg" alt="Screenshot 7" width="250">
+  <img src="screenshots/8.jpg" alt="Screenshot 8" width="250">
+  <img src="screenshots/9.jpg" alt="Screenshot 9" width="250">
 </div>
 
 <div align="center">
-  <img src="screenshots/10.png" alt="Screenshot 10" width="250">
-  <img src="screenshots/11.png" alt="Screenshot 11" width="250">
-  <img src="screenshots/12.png" alt="Screenshot 12" width="250">
+  <img src="screenshots/10.jpg" alt="Screenshot 10" width="250">
+  <img src="screenshots/11.jpg" alt="Screenshot 11" width="250">
+  <img src="screenshots/12.jpg" alt="Screenshot 12" width="250">
 </div>
 
 <div align="center">
-  <img src="screenshots/13.png" alt="Screenshot 13" width="250">
-  <img src="screenshots/14.png" alt="Screenshot 14" width="250">
-  <img src="screenshots/15.png" alt="Screenshot 15" width="250">
+  <img src="screenshots/13.jpg" alt="Screenshot 13" width="250">
+  <img src="screenshots/14.jpg" alt="Screenshot 14" width="250">
+  <img src="screenshots/15.jpg" alt="Screenshot 15" width="250">
 </div>
 
 <div align="center">
-  <img src="screenshots/16.png" alt="Screenshot 16" width="250">
-  <img src="screenshots/17.png" alt="Screenshot 17" width="250">
-  <img src="screenshots/18.png" alt="Screenshot 18" width="250">
+  <img src="screenshots/16.jpg" alt="Screenshot 16" width="250">
+  <img src="screenshots/17.jpg" alt="Screenshot 17" width="250">
+  <img src="screenshots/18.jpg" alt="Screenshot 18" width="250">
 </div>
-
 
 ## Getting Started
 
