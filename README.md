@@ -63,10 +63,10 @@ MovieHub is a Flutter app that allows users to explore movies and TV shows using
 To get started with MovieHub, follow these steps:
 
 1. Clone the repository:
-  ```shell
-  git clone https://github.com/OssHeikal/MovieHub.git
+   ```shell
+   git clone https://github.com/OssHeikal/MovieHub.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
   ```shell
   cd MovieHub
    
