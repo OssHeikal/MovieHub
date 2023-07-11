@@ -1,0 +1,40 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:movie_hub/core/presentation/widgets/custom_loading_indicator.dart';
+import 'package:movie_hub/core/presentation/widgets/details_card_tile.dart';
+import 'package:movie_hub/core/presentation/widgets/lazy_load_list_view.dart';
+import 'package:movie_hub/core/resources/values.dart';
+import 'package:movie_hub/core/domain/entities/media.dart';
+import 'package:movie_hub/features/tv_shows/presentation/controller/top_rated_tv_shows/top_rated_tv_shows_bloc.dart';
+
+class TopRatedTvShowsWidget extends StatelessWidget {
+  const TopRatedTvShowsWidget({super.key, required this.topRatedTvShows});
+
+  final List<Media> topRatedTvShows;
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<TopRatedTvShowsBloc, TopRatedTvShowsState>(
+      builder: (context, state) {
+        return LazyLoadListView(
+          itemCount: topRatedTvShows.length + 1,
+          itemBuilder: (context, index) {
+            if (index < topRatedTvShows.length) {
+              return DetailsCardTile(media: topRatedTvShows[index]);
+            } else {
+              return SizedBox(
+                  height: AppHeight.h60.h,
+                  child: const CustomLoadingIndicator());
+            }
+          },
+          onScrollDidReachEnd: () {
+            context
+                .read<TopRatedTvShowsBloc>()
+                .add(MoreTopRatedTvShowsFetched());
+          },
+        );
+      },
+    );
+  }
+}
